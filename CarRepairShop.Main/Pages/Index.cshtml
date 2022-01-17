@@ -1,0 +1,49 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+
+    @*<h2>Cars</h2>
+    <table>
+            <tr>
+                <th style="border: solid 1px black">
+                    Car Id
+                </th>
+                <th style="border: solid 1px black">
+                    Brand Name
+                </th>
+                <th style="border: solid 1px black">
+                    Car Model
+                </th>
+                <th style="border: solid 1px black">
+                    Car Chassis
+                </th>
+                <th style="border: solid 1px black">
+                    Car Year
+                </th>
+            </tr>
+        @foreach (var item in Model.CarList)
+        {
+            <tr>
+                <td style="border: solid 1px black">
+                    @item.CarId
+                </td>
+                <td style="border: solid 1px black">
+                    @item.BrandName
+                </td>
+                <td style="border: solid 1px black">
+                    @item.CarModel
+                </td>
+                <td style="border: solid 1px black">
+                    @item.CarChassis
+                </td>
+                <td style="border: solid 1px black">
+                    @item.CarYear
+                </td>
+            </tr>
+        }
+    </table>*@
+
+
